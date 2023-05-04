@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply box-border;
+}
+@layer base {
+  html,
+  body {
+    /* @apply font-sans m-0 p-0 bg-body dark:bg-dark-body; */
+  }
+}
